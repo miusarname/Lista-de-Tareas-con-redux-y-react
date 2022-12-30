@@ -25,6 +25,7 @@ function TaskList() {
           <h3>{task.title}</h3>
           <p>{task.Description}</p>
           <button onClick={()=>handleDelete(task.id)}>Delete</button>
+          
         </div>
       ))}
     </div>
